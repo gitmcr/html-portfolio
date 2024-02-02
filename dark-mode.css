@@ -43,10 +43,18 @@
 
 .dark-mode .btn-color-1 {
     color: #000000;
-    background: rgb(184, 184, 184);
+    background: rgb(202, 202, 202);
 }
 
 .dark-mode .btn-color-1:hover {
     color: #000000;
     background: rgb(255, 255, 255);
+}
+
+.dark-mode a:hover {
+    color: rgb(192, 192, 192);
+    text-decoration: underline;
+    text-underline-offset: 0.7rem;
+    text-decoration-color: rgb(181, 181, 181);
+    transition: all 0ms ease;
 }

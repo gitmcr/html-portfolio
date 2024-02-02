@@ -70,7 +70,7 @@ a {
 a:hover {
   color: grey;
   text-decoration: underline;
-  text-underline-offset: 1rem;
+  text-underline-offset: 0.7rem;
   text-decoration-color: rgb(181, 181, 181);
 }
 
@@ -220,6 +220,26 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+}
+
+#linkmax:hover {
+  transform: rotate(360deg) scale(1.2);
+  transition-duration: 600ms;
+}
+
+#gitmax:hover {
+  transform: rotate(360deg) scale(1.2);
+  transition-duration: 600ms;
+}
+
+#linkmax {
+  transform: rotate(0deg) scale(1);
+  transition-duration: 600ms;
+}
+
+#gitmax {
+  transform: rotate(0deg) scale(1);
+  transition-duration: 600ms;
 }
 
 /* ICONS */
