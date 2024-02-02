@@ -1,0 +1,52 @@
+.dark-mode {
+    background-color: #363636; 
+    color: #fff; 
+}
+  
+.dark-mode p {
+    color: #ccc; 
+}
+
+.dark-mode h2 {
+    color: #ccc; 
+}
+
+.dark-mode a {
+    color: #fff;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.dark-mode #toggle-mode {
+    background-color: #363636;
+  }
+
+.dark-mode .btn-container {
+    color: white;
+}
+
+.dark-mode .details-container {
+    background-color: #363636;
+}
+
+.dark-mode .btn-color-2 {
+    border: rgb(255, 255, 255) 0.1rem solid;
+    color: white;
+    background: none;
+}
+
+.dark-mode .btn-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+    color: #363636;
+    background: white;
+}
+
+.dark-mode .btn-color-1 {
+    color: #000000;
+    background: rgb(184, 184, 184);
+}
+
+.dark-mode .btn-color-1:hover {
+    color: #000000;
+    background: rgb(255, 255, 255);
+}
