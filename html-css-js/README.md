@@ -10,5 +10,5 @@ Le plus dur pour moi a été d'ajouter une fonction "Dark Mode" au site, c'est m
 
 ---
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,md,js)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
 
