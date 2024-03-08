@@ -43,7 +43,9 @@ export default function Skill() {
                 <img src={js} alt="Logo HTML" width={40} />
                 <img src={react} alt="Logo HTML" width={42} />
               </div>
-              <div className="level">Avancé</div>
+              <div className="level">
+                <p>Avancé</p>
+              </div>
             </div>
             <div className="uxui">
               <h2>UX/UI Design</h2>
@@ -53,7 +55,9 @@ export default function Skill() {
                 <img src={tailwind} alt="" width={45} />
                 <img src={sass} alt="" width={40} />
               </div>
-              <div className="level">Intermédiaire</div>
+              <div className="level">
+                <p>Intermédiaire</p>
+              </div>
             </div>
           </div>
           <div className="skill-right">
@@ -65,7 +69,9 @@ export default function Skill() {
                 <img src={mongo} alt="" width={48} />
                 <img src={python} alt="" width={40} />
               </div>
-              <div className="level">Débutant</div>
+              <div className="level">
+                <p>Débutant</p>
+              </div>
             </div>
             <div className="tools">
               <h2>Outils</h2>
@@ -75,7 +81,9 @@ export default function Skill() {
                 <img src={vsc} alt="" width={45} />
                 <img src={github} alt="" width={40} />
               </div>
-              <div className="level">Avancé</div>
+              <div className="level">
+                <p>Avancé</p>
+              </div>
             </div>
           </div>
         </div>

@@ -10,6 +10,14 @@
   padding: 6em 0;
 }
 
+.skill-list h2 {
+  font-size: 1.6rem;
+}
+
+.skill-list p {
+  font-size: 1.1rem;
+}
+
 .skill-title {
   display: flex;
   flex-direction: column;
