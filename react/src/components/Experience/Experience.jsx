@@ -2,9 +2,9 @@
 import "./Experience.css";
 
 import barna from "../../assets/barna.png";
-import bts from "../../assets/cordeille.png";
+import bts from "../../assets/bts.png";
 import mcraylet from "../../assets/mcraylet.png";
-import formations from "../../assets/formations.png";
+import formations from "../../assets/meta.png";
 
 export default function Experience() {
   return (
