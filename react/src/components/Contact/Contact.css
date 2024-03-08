@@ -1,0 +1,138 @@
+/* Contact.css */
+
+.contact {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 6em 0;
+}
+
+.contact-left {
+  width: 50%;
+  order: 0;
+}
+
+.contact-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  order: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.contact input, textarea {
+    border: 2px solid #2e2e2e;
+}
+
+textarea {
+  height: 100px;
+}
+
+.btn-msg {
+  display: flex;
+  align-items: center;
+}
+
+.btn-msg p {
+  font-size: 1rem;
+  padding-left: 3rem;
+  font-weight: 600;
+}
+
+.btn-msg {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn-msg button {
+  font-size: 1em;
+  border-radius: 8px;
+  border: 2px solid #292929;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+}
+
+.btn-msg button:hover {
+  font-size: 1em;
+  border-radius: 8px;
+  border: 2px solid #f6f6f6;
+  color: #f6f6f6
+  background-color: #2e2e2e;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+}
+
+.btn-msg small {
+  font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    flex-direction: column;
+    padding: 5em 0 3em 0;
+  }
+
+  .contact-left,
+  .contact-right {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .btn-msg {
+    display: flex;
+  }
+
+  .contact-left {
+    order: 1;
+  }
+
+  .contact-right {
+    order: 0;
+  }
+}
+
+.colorcontact {
+  background-color: #e1e1df;
+  color: #262524;
+  transition: color 500ms;
+  transition: background-color 500ms;
+}
+
+.dark .colorcontact {
+  background-color: #262524;
+  color: #e1e1df;
+  transition: color 500ms;
+  transition: background-color 500ms;
+}

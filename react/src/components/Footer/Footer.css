@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oleo+Script:wght@400;700&display=swap");
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.footer-middle p {
+  font-weight: 500;
+}
+
+.footer h1 {
+  font-family: "Oleo Script", cursive;
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: #2e2e2e;
+  transition: color 500ms;
+}
+
+.dark .footer h1 {
+  color: #f6f6f6;
+  transition: color 500ms;
+}
+
+.footer-right {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .footer-middle p {
+    font-size: 0.8rem;
+  }
+
+  .footer-right a img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer h1 {
+    font-family: "Oleo Script", cursive;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+}
+
+.colorfooter {
+  background-color: #f6f6f6;
+  color: #2e2e2e;
+  transition: color 500ms;
+  transition: background-color 500ms;
+}
+
+.dark .colorfooter {
+  background-color: #2e2e2e;
+  color: #f6f6f6;
+  transition: color 500ms;
+  transition: background-color 500ms;
+}
