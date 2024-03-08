@@ -1,0 +1,13 @@
+.colorproject {
+  background-color: #f6f6f6;
+  color: #2e2e2e;
+  transition: color 500ms;
+  transition: background-color 500ms;
+}
+
+.dark .colorproject {
+  background-color: #2e2e2e;
+  color: #f6f6f6;
+  transition: color 500ms;
+  transition: background-color 500ms;
+}

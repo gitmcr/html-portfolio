@@ -1,0 +1,172 @@
+.skill {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 6em 0;
+}
+
+.skill-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding-bottom: 5em;
+}
+
+.skill-title h1 {
+  font-size: 2.6em;
+}
+
+.skill-title p {
+  font-size: 1.3em;
+}
+
+.skill-list {
+  display: flex;
+  gap: 3rem;
+}
+
+.skill-left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.skill-right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.skill-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.level {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.front-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 1;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.uxui {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 1;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 1;
+  padding: 1.8rem;
+  gap: 2rem;
+}
+
+.back-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 1;
+  padding: 1.8rem;
+  gap: 2rem;
+}
+
+.colorskill {
+  background-color: #e1e1df;
+  color: #262524;
+  transition: color 500ms;
+  transition: background-color 500ms;
+}
+
+.dark .colorskill {
+  background-color: #262524;
+  color: #e1e1df;
+  transition: color 500ms;
+  transition: background-color 500ms;
+}
+
+.tools,
+.back-end,
+.front-end,
+.uxui {
+  border: 2px solid #262524;
+  background-color: #fefefe;
+  border-radius: 10px;
+  scale: 1;
+  transition: scale 500ms;
+}
+
+.dark .tools,
+.dark .back-end,
+.dark .front-end,
+.dark .uxui {
+  border: 2px solid #e1e1df;
+  background-color: #3e3d3b;
+  border-radius: 10px;
+}
+
+.front-end:hover,
+.uxui:hover,
+.back-end:hover,
+.tools:hover {
+  scale: 1.1;
+  background-color: #f0f0f0;
+  transition: scale 500ms;
+}
+
+.dark .front-end:hover,
+.dark .uxui:hover,
+.dark .back-end:hover,
+.dark .tools:hover {
+  background-color: #474643;
+}
+
+@media screen and (max-width: 1024px) {
+  .skill-list {
+    flex-direction: column;
+  }
+  .skill-left,
+  .skill-right {
+    flex-direction: column;
+  }
+
+  .level {
+    flex-direction: column;
+  }
+  .front-end,
+  .uxui {
+    order: 2;
+  }
+  .tools,
+  .back-end {
+    order: 1;
+  }
+  .dark.tools,
+  .dark.back-end {
+    order: 2;
+  }
+  .dark.front-end,
+  .dark.uxui {
+    order: 1;
+  }
+}

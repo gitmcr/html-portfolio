@@ -38,8 +38,8 @@ export default function Navbar({ theme, setTheme }) {
         >
           <a href="#about">À Propos</a>
           <a href="#experience">Expérience</a>
-          <a href="#">Compétences</a>
-          <a href="#">Projets</a>
+          <a href="#skill">Compétences</a>
+          <a href="#project">Projets</a>
           <a href="#contact">Contact</a>
         </nav>
         <div className="navbar-right">
