@@ -68,7 +68,7 @@ export default function Experience() {
               <img src={formations} alt="Formations" />
             </a>
             <div className="text-box">
-              <h2>Formations (freeCodeCamp, Udemy, WebDev et +) </h2>
+              <h2>Formations (freeCodeCamp, Udemy, WebDev et Meta) </h2>
               <small>2023 - aujourd'hui</small>
               <p>
                 HTML & CSS + Responsive Design - SASS - Tailwind CSS -
