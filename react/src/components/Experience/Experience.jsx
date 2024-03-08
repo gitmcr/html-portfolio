@@ -21,8 +21,8 @@ export default function Experience() {
               <small>Janvier 2021 - Juin 2021</small>
               <p>
                 {" "}
-                Développement web Fullstack avec base de données et déploiement
-                et utilisation d'outils de design et de CLI.
+                Développement Web Fullstack - Utilisation base de données MySQL
+                - Déploiement Heroku - Utilisation d'outils de design et de CLI.
               </p>
               <span className="left-container-arrow"></span>
             </div>
@@ -37,8 +37,8 @@ export default function Experience() {
               <small>2020 - 2022</small>
               <p>
                 Développement web & applications (HTML, CSS, Python &
-                JavaScript), étude de systèmes informatiques. Projets,
-                instrumentation et mesures.
+                JavaScript) - Étude de systèmes informatiques - Projets,
+                instrumentation, incertitudes et mesures.
               </p>
               <span className="right-container-arrow"></span>
             </div>
@@ -53,8 +53,8 @@ export default function Experience() {
               <small>2022 - aujourd'hui</small>
               <p>
                 {" "}
-                Développement web et CMS, Assistance HelpDesk N1/2 (maintenance
-                et dépannage) et Formations Informatiques.
+                Développement web et CMS - Assistance HelpDesk N1/2 (maintenance
+                et dépannage) - Formations Informatiques.
               </p>
               <span className="left-container-arrow"></span>
             </div>
@@ -71,8 +71,9 @@ export default function Experience() {
               <h2>Formations (freeCodeCamp, Udemy, WebDev et +) </h2>
               <small>2023 - aujourd'hui</small>
               <p>
-                HTML & CSS + Responsive - SASS - Tailwind CSS - JavaScript -
-                ES6+ - React (Redux + Toolkit / React Router) avec 600+ heures.
+                HTML & CSS + Responsive Design - SASS - Tailwind CSS -
+                JavaScript - ES6+ - React (Redux + Toolkit / React Router) avec
+                600+ heures.
               </p>
               <span className="right-container-arrow"></span>
             </div>
