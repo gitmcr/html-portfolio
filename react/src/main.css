@@ -18,41 +18,14 @@ a {
   text-decoration: none;
 }
 
-.dark button {
-  transition: background-color 500ms;
-  background-color: #2b6f9e;
-  border: 2px solid #1f1f1e;
-}
-
-.dark button p {
-  color: #efefef;
-  transition: color 500ms;
-}
-
-.dark button small {
-  color: #efefef;
-  transition: color 500ms;
-}
-
-.dark button:hover {
-  transition: background-color 500ms;
-  background-color: #3b8bbc;
-  border: 2px solid #1f1f1e;
-}
-
-.dark button:hover small {
-  transition: color 500ms;
-  color: #efefef;
-}
-
 button {
   transition: background-color 500ms;
-  background-color: #2b6f9e;
-  border: 2px solid #1f1f1e;
+  background-color: #2f67b4;
+  border: 2px solid #e0e0e0;
 }
 
 button p {
-  color: #efefef;
+  color: #e0e0e0;
   transition: color 500ms;
 }
 
@@ -69,7 +42,7 @@ button small {
 
 button:hover p {
   transition: color 500ms;
-  color: #efefef;
+  color: #e0e0e0;
 }
 
 .dark .timeline::after {

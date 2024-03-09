@@ -68,7 +68,7 @@
 }
 
 .text-box:hover {
-  background-color: #e1e1df;
+  background-color: #d5d5d3;
   scale: 1.03;
   transition: background-color 500ms;
   transition: scale 500ms;
@@ -187,15 +187,15 @@
 }
 
 .colorexperience {
-  background-color: #f6f6f6;
-  color: #2e2e2e;
+  background-color: #e8e8e8;
+  color: #171717;
   transition: color 500ms;
   transition: background-color 500ms;
 }
 
 .dark .colorexperience {
-  background-color: #2e2e2e;
-  color: #f6f6f6;
+  background-color: #171717;
+  color: #e8e8e8;
   transition: color 500ms;
   transition: background-color 500ms;
 }

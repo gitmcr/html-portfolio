@@ -124,15 +124,15 @@ textarea {
 }
 
 .colorcontact {
-  background-color: #e1e1df;
-  color: #262524;
+  background-color: #e0e0e0;
+  color: #1f1f1f;
   transition: color 500ms;
   transition: background-color 500ms;
 }
 
 .dark .colorcontact {
-  background-color: #262524;
-  color: #e1e1df;
+  background-color: #1f1f1f;
+  color: #e0e0e0;
   transition: color 500ms;
   transition: background-color 500ms;
 }
