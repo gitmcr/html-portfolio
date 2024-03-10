@@ -20,29 +20,29 @@ a {
 
 button {
   transition: background-color 500ms;
-  background-color: #1e77bc;
+  background-color: #295da6;
   border: 2px solid #e0e0e0;
 }
 
 button p {
-  color: #e0e0e0;
+  color: #fff;
   transition: color 500ms;
 }
 
 button small {
-  color: #efefef;
+  color: #fff;
   transition: color 500ms;
 }
 
 .light button:hover {
   transition: background-color 500ms;
-  background-color: #155a8f;
+  background-color: #234c87;
   border: 2px solid #1f1f1e;
 }
 
 button:hover p {
   transition: color 500ms;
-  color: #e0e0e0;
+  color: #fff;
 }
 
 .dark .timeline::after {

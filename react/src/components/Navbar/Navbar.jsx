@@ -44,20 +44,26 @@ export default function Navbar({ theme, setTheme }) {
         </nav>
         <div className="navbar-right">
           {theme === "dark" ? (
-            <input
-              onClick={handleClick}
-              id="toggle"
-              className="toggle"
-              type="checkbox"
-              checked
-            />
+            <>
+              <label />
+              <input
+                onClick={handleClick}
+                id="toggle"
+                className="toggle"
+                type="checkbox"
+                checked
+              />
+            </>
           ) : (
-            <input
-              onClick={handleClick}
-              id="toggle"
-              className="toggle"
-              type="checkbox"
-            />
+            <>
+              <label />
+              <input
+                onClick={handleClick}
+                id="toggle"
+                className="toggle"
+                type="checkbox"
+              />
+            </>
           )}
         </div>
       </nav>
