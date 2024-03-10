@@ -20,7 +20,7 @@ a {
 
 button {
   transition: background-color 500ms;
-  background-color: #2f67b4;
+  background-color: #1e77bc;
   border: 2px solid #e0e0e0;
 }
 
@@ -36,7 +36,7 @@ button small {
 
 .light button:hover {
   transition: background-color 500ms;
-  background-color: #3b8bbc;
+  background-color: #155a8f;
   border: 2px solid #1f1f1e;
 }
 

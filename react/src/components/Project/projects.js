@@ -2,7 +2,7 @@
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import js from "../../assets/javascript.svg";
-import cms from "../../assets/cms1.png";
+import cms from "../../assets/cms.svg";
 import nodejs from "../../assets/node-js.svg";
 import python from "../../assets/python.svg";
 import react from "../../assets/react.svg";
@@ -10,7 +10,7 @@ import sass from "../../assets/sass.svg";
 import tailwind from "../../assets/tailwind.svg";
 import ps from "../../assets/ps.svg";
 import figma from "../../assets/figma.svg";
-import seo from "../../assets/seoseo.png";
+import seo from "../../assets/seo.svg";
 
 import imgproject1 from "../../assets/mcraylet-proj.png";
 import imgproject2 from "../../assets/max.png";

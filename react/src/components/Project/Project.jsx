@@ -33,7 +33,7 @@ export default function Project() {
                 <h3>Langages / Outils</h3>
                 <div className="languages-list">
                   {project.languages.map((lang, index) => (
-                    <img src={lang} key={index} className="langs" />
+                    <img src={lang} key={index} className="langs" alt={index} />
                   ))}
                 </div>
               </div>
