@@ -45,7 +45,7 @@ export default function Navbar({ theme, setTheme }) {
         <div className="navbar-right">
           {theme === "dark" ? (
             <>
-              <label />
+              <label>Dark Mode</label>
               <input
                 onClick={handleClick}
                 id="toggle"
@@ -56,7 +56,7 @@ export default function Navbar({ theme, setTheme }) {
             </>
           ) : (
             <>
-              <label />
+              <label>Light Mode</label>
               <input
                 onClick={handleClick}
                 id="toggle"
