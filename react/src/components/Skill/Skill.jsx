@@ -17,7 +17,7 @@ import python from "../../assets/python.svg";
 
 import git from "../../assets/git.svg";
 import seo from "../../assets/seoseo.png";
-import vsc from "../../assets/vscode.svg";
+import cms from "../../assets/cms1.png";
 import github from "../../assets/githublogo.png";
 
 import "./Skill.css";
@@ -78,7 +78,7 @@ export default function Skill() {
               <div className="skill-icons">
                 <img src={git} alt="" width={40} />
                 <img src={seo} alt="" width={40} />
-                <img src={vsc} alt="" width={45} />
+                <img src={cms} alt="" width={45} />
                 <img src={github} alt="" width={40} />
               </div>
               <div className="level">
