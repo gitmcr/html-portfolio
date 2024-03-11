@@ -12,7 +12,7 @@ import ps from "../../assets/ps.svg";
 import figma from "../../assets/figma.svg";
 import seo from "../../assets/seo.svg";
 
-import imgproject1 from "../../assets/mcraylet-proj.png";
+import imgproject1 from "../../assets/projet1.png";
 import imgproject2 from "../../assets/max.png";
 import imgproject3 from "../../assets/max.png";
 
