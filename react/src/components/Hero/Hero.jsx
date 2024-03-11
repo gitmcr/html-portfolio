@@ -19,7 +19,7 @@ export default function Hero() {
             vivant en 📍 France.
           </p>
           <div className="hero-left-icons">
-            <a href="https://www.linkedin.com/in/maximeraylet/" target="_blank">
+            <a href="https://www.linkedin.com/in/mcraylet/" target="_blank">
               <img src={linkedin} alt="Logo LinkedIn" />
             </a>
             <a href="https://github.com/gitmcr" target="_blank">

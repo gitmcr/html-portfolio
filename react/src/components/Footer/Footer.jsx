@@ -41,7 +41,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="footer-right">
-          <a href="https://www.linkedin.com/in/maximeraylet/" target="_blank">
+          <a href="https://www.linkedin.com/in/mcraylet/" target="_blank">
             <img src={linkedin} alt="Logo LinkedIn" width={35} />
           </a>
           <a href="https://github.com/gitmcr" target="_blank">
