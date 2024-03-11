@@ -4,8 +4,6 @@ import linkedin from "../../assets/linkedinlogo.png";
 import github from "../../assets/githublogo.png";
 import mcr from "../../assets/max.png";
 
-import cv from "../../assets/CV.pdf";
-
 export default function Hero() {
   return (
     <div className="colorhero">
@@ -31,7 +29,7 @@ export default function Hero() {
           <img src={mcr} alt="Photo de Maxime Raylet" width={400} />
           <div className="hero-right-btn">
             <button>
-              <a href={cv} target="_blank">
+              <a href="https://www.linkedin.com/in/mcraylet/" target="_blank">
                 <p>CV</p>
               </a>
             </button>
