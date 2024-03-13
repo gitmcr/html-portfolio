@@ -6,6 +6,8 @@ import pp3 from "../../assets/pp3.1.png";
 
 import "./Contact.css";
 
+import SendIcon from "@mui/icons-material/Send";
+
 export default function Contact() {
   const [messageSent, setMessageSent] = useState(false);
 
@@ -53,7 +55,7 @@ export default function Contact() {
 
             <div className="btn-msg">
               <button type="submit">
-                <small>Envoyer</small>
+                <SendIcon style={{ color: "white" }} fontSize="small" />
               </button>
               {messageSent && <p>Merci de votre envoi ! 👍</p>}
             </div>
