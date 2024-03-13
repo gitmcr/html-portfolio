@@ -50,13 +50,13 @@
 
 .colorfooter {
   background-color: #e8e8e8;
-  color: #171717;
+  color: #191919;
   transition: color 500ms;
   transition: background-color 500ms;
 }
 
 .dark .colorfooter {
-  background-color: #171717;
+  background-color: #191919;
   color: #e8e8e8;
   transition: color 500ms;
   transition: background-color 500ms;

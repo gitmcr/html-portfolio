@@ -11,7 +11,7 @@ import tailwind from "../../assets/tailwind.svg";
 import sass from "../../assets/sass.svg";
 
 import node from "../../assets/node-js.svg";
-import mysql from "../../assets/mysql.png";
+import postgre from "../../assets/postgresql.svg";
 import mongo from "../../assets/mongodb.svg";
 import python from "../../assets/python.svg";
 
@@ -65,9 +65,9 @@ export default function Skill() {
               <h2>Back-End</h2>
               <div className="skill-icons">
                 <img src={node} alt="" width={40} />
-                <img src={mysql} alt="" width={45} />
-                <img src={mongo} alt="" width={48} />
                 <img src={python} alt="" width={40} />
+                <img src={mongo} alt="" width={48} />
+                <img src={postgre} alt="" width={42} />
               </div>
               <div className="level">
                 <p>Débutant</p>

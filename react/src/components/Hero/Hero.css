@@ -70,7 +70,7 @@
   font-size: 1em;
   border-radius: 8px;
   border: 2px solid #f6f6f6;
-  color: #f6f6f6
+  color: #f6f6f6;
   background-color: #2e2e2e;
   font-weight: 600;
   padding: 0.6rem 1.2rem;
@@ -119,20 +119,20 @@ h2 span {
   }
 
   .hero-right img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
   }
 }
 
 .colorhero {
   background-color: #e8e8e8;
-  color: #171717;
+  color: #191919;
   transition: color 500ms;
   transition: background-color 500ms;
 }
 
 .dark .colorhero {
-  background-color: #171717;
+  background-color: #191919;
   color: #e8e8e8;
   transition: color 500ms;
   transition: background-color 500ms;
